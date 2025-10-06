@@ -9,6 +9,6 @@ int main(int argc, char** argv) {
      a+= array[i];
      };
      a=a/10;
-    printf("%.2f\n",a);
+    printf("%.3f\n",a);
     return 0;
 }

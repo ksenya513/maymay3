@@ -1,6 +1,15 @@
 #include "../include/array_function.h"
 
-void join_int_arrays(int *src1, size_t size_src1, int *src2, size_t size_src2, int *dest) {}
+void join_int_arrays(int *src1, size_t size_src1, int *src2, size_t size_src2, int *dest) {
+int i = 0;
+int* dest[8];
+for(i;i<size_src1;i++) {
+    dest[i] = src1[i];
+};
+for(i;i<size_src2;i++) {
+    dest[i+size_src1] = src2[i];
+};
+}
 
 void join_and_sort_int_arrays(int* src1, size_t size_src1, int* src2, size_t size_src2, int* dest) {}
 

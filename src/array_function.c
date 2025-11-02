@@ -4,8 +4,6 @@
 
 void join_int_arrays(int *src1, size_t size_src1, int *src2, size_t size_src2, int *dest) {
 int i = 0;
-size_t size_src1= atoi(argv[0]);
-size_t size_src2=atoi(argv[1]);
 for(i;i<size_src1;i++) {
     scanf("%d",&src1[i]);
     }

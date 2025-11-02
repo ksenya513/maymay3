@@ -4,12 +4,6 @@
 
 void join_int_arrays(int *src1, size_t size_src1, int *src2, size_t size_src2, int *dest) {
 int i = 0;
-for(i;i<size_src1;i++) {
-    scanf("%d",&src1[i]);
-    }
-for(i;i<size_src2;i++) {
-        scanf("%d",&src2[i]);
-    }
 int* dest[size_src1+size_src2];
 for(i;i<size_src1;i++) {
     dest[i] = src1[i];

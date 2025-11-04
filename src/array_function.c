@@ -34,5 +34,23 @@ while(n<(size_src1+size_src2)-1){
 }
 }
 
-void get_min_and_max_from_int_array(int* src, size_t size, int* min, int* max) {}
+void get_min_and_max_from_int_array(int* src, size_t size, int* min, int* max) {
+    size_t n=0;
+while(n<size-1){
+    n=0;
+    size_t i=0;
+    for(i;i<size -1;i++){
+        if (src[i]>src[i+1]){
+            int a=src[i];
+            src[i]=src[i+1];
+            src[i+1]=a;
+            i=0;
+        }else {
+        n+=1;
+        }
+    }
+}
+*min=&src[0];
+*max=&src[size-1];
+}
 

@@ -17,7 +17,7 @@ for(size_t i=0;i<size_src2;i++) {
     dest[i+size_src1] = src2[i];
 }
 size_t n=0;
-    for(i;i<size_src1+size_src2 -1;i++){
+    for(size_t i=0;i<size_src1+size_src2 -1;i++){
         n=0;
         for (size_t o=0;0<size_src1+size_src2 -1-i;o++){
             if (dest[i]>dest[i+1]){

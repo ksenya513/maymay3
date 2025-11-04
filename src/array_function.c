@@ -50,7 +50,7 @@ while(n<size-1){
         }
     }
 }
-*min=&src[0];
-*max=&src[size-1];
+*min=src[0];
+*max=src[size-1];
 }
 

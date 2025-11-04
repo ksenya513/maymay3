@@ -21,7 +21,7 @@ for(int i=0;i<size_src1+size_src2 -1;i++){
             int a=dest[i];
             dest[i]=dest[i+1];
             dest[i+1]=a;
-            i=0;
+            i=-1;
         }
     
 }

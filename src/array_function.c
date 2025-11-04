@@ -17,7 +17,7 @@ for(int i=0;i<size_src2;i++) {
     dest[i+size_src1] = src2[i];
 };
 for(int i=0;i<size_src1+size_src2;i++){
-    while (dest[size_src1]>dest[size_src1+1]){
+    while (dest[size_src1-1]>dest[size_src1]){
         if (dest[i]>dest[i+1]){
             int a=dest[i];
             dest[i]=dest[i+1];

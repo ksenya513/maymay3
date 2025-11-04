@@ -24,7 +24,7 @@ while(n<(size_src1+size_src2)-1){
             dest[i]=dest[i+1];
             dest[i+1]=a;
             n=1;
-        }else if(n==0;){
+        }else if(n==0){
             break;
         }
         }

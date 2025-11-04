@@ -25,11 +25,13 @@ size_t n=0;
                 dest[i]=dest[i+1];
                 dest[i+1]=a;
                 n+=1;
-            }else if (n==0){
-                break;
             }
         }
     }
+    if (n==0){
+        break;    
+    }
+}
 
 void get_min_and_max_from_int_array(int* src, size_t size, int* min, int* max) {}
 

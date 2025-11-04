@@ -17,13 +17,13 @@ for(size_t i=0;i<size_src2;i++) {
     dest[i+size_src1] = src2[i];
 };
 int n=0;
-while(n!=size_src1+size_src2 -1){
+while(n<size_src1+size_src2 -1){
+    n=0;
     for(size_t i=0;i<size_src1+size_src2 -1;i++){
         if (dest[i]>dest[i+1]){
             int a=dest[i];
             dest[i]=dest[i+1];
             dest[i+1]=a;
-            n=0;
         }else {
         n+=1;
         }
